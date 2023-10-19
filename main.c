@@ -6,10 +6,10 @@
 int main(void)
 {
 	int i;
-	int temp;
 	
 	for(i=0;i<5;i++)
 	{
+		static int temp=1;
 		printf("temp=%d\n", temp);
 		temp++;
 	}
